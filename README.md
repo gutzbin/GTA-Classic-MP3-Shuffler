@@ -18,5 +18,7 @@ Finds every `.mp3` in the folder, renames them all to random temporary names so 
 
 Runs the shuffle script first. If it fails, you get an error message and a pause (this was mostly just for debug purposes when making the code work). If it succeeds, it checks for `gta-vc.exe`, then `gta3.exe`, and launches whichever one it finds so the same script works for either game. It stops with an error if neither is found.
 
+Other methods exist to solve the lack of a shuffle function in the game, but this one is far lighter, has one simple function rather than attempting to fulfill many purposes, and doesn't involve adding mods to the game.
+
 ## Credits
 I am not affiliated in any way with Rockstar Games, who made GTA Vice City and GTA 3 and their icons, and still sell The Definitive Editions of both games (for which this project will not work).
